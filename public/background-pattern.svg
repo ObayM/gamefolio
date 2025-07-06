@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <pattern id="pattern" patternUnits="userSpaceOnUse" width="100" height="100">
+      <path
+        d="M50 30 C 25 30, 10 50, 10 50 C 10 50, 25 70, 50 70 C 75 70, 90 50, 90 50 C 90 50, 75 30, 50 30 Z M50 42 C 54.418 42, 58 45.582, 58 50 C 58 54.418, 54.418 58, 50 58 C 45.582 58, 42 54.418, 42 50 C 42 45.582, 45.582 42, 50 42 Z M50 68 L50 85 M50 28 Q 50 20, 60 15 M50 28 Q 50 20, 40 15"
+        stroke="rgba(255, 255, 224, 0.4)"
+        stroke-width="2"
+        fill="none"
+        stroke-linecap="round"
+      />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#pattern)" />
+</svg>
