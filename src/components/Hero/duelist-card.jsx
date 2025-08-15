@@ -20,12 +20,13 @@ const DuelistCard = () => {
   const level = 8;
 
   return (
-    <div className="w-full max-w-sm rounded-lg overflow-hidden bg-gradient-to-br from-orange-400 to-amber-600 p-1.5 shadow-2xl shadow-yellow-700/40 transform transition-all hover:scale-105 duration-500 hover:shadow-yellow-500/60 font-[--font-sans]">
+
+  <div className="holo-card group w-full max-w-sm rounded-lg overflow-hidden bg-gradient-to-br from-orange-400 to-amber-600 p-1.5 shadow-2xl shadow-yellow-700/40 transform transition-all hover:scale-105 duration-500 hover:shadow-yellow-500/60 font-sans [background-size:200%] animate-border-pulse">
       <div className="bg-amber-800 rounded-t-md flex items-center justify-between p-1">
-        <h2 className="text-lg font-bold text-white uppercase tracking-wider pl-2 font-[--font-ui]">
+        <h2 className="text-lg font-bold text-white uppercase tracking-wider pl-2 font-ui">
           Obay Rashad
         </h2>
-        <div className="w-8 h-8 rounded-full bg-red-700 flex items-center justify-center font-[--font-ui] text-white font-black text-xs border-2 border-amber-900">
+        <div className="w-8 h-8 rounded-full bg-red-700 flex items-center justify-center font-ui text-white font-black text-xs border-2 border-amber-900">
           DEV
         </div>
       </div>
@@ -39,7 +40,8 @@ const DuelistCard = () => {
       </div>
 
       <div className="p-1 bg-black">
-        <div className="relative w-full aspect-square border-2 border-amber-900">
+
+        <div className="holo-effect relative w-full aspect-square border-2 border-amber-900">
           <Image
             src="/avatar.png"
             alt="A portrait of the duelist"
@@ -52,13 +54,14 @@ const DuelistCard = () => {
 
       <div className="bg-amber-100 p-2 border-t-4 border-amber-800">
         <div className="border border-amber-800 p-2 text-black">
-          <h3 className="font-bold text-sm font-[--font-ui]">[ DEVELOPER / CREATOR ]</h3>
-          <p className="text-xs italic mt-1 h-16">
+          <h3 className="font-bold text-sm font-ui">[ DEVELOPER / CREATOR ]</h3>
+
+          <p className="text-xs italic mt-1 h-16 text-shadow-engraved">
             A versatile programmer who can adapt to any tech stack. Fuses logic
             and creativity to build robust and beautiful applications.
           </p>
           <hr className="border-t border-amber-800 my-1" />
-          <div className="flex justify-end text-sm font-[--font-ui] gap-4">
+          <div className="flex justify-end text-sm font-ui gap-4 text-shadow-engraved">
             <span>ATK/ 9500</span>
             <span>DEF/ 8000</span>
           </div>

@@ -1,5 +1,7 @@
 import { Cinzel_Decorative, Bebas_Neue, Lato } from 'next/font/google';
 import './globals.css';
+import Navbar from '@/components/Layout/navbar';
+import Footer from '@/components/Layout/footer';
 
 export const cinzel = Cinzel_Decorative({
   subsets: ['latin'],
@@ -34,7 +36,9 @@ export default function RootLayout({ children }) {
       <body
       className={`${cinzel.variable} ${bebas_neue.variable} ${lato.variable} antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "title": "Customer Churn Predictor",
+    "type": "AI-Powered Content Platform",
+    "description": "A full-stack application that leverages advanced AI models to generate, refine, and analyze written content. Features a rich text editor, user authentication, and a subscription-based model.",
+    "image": "https://cloud-4efdkt0eh-hack-club-bot.vercel.app/01730837711716.jpeg",
+    "tags": ["Python", "Machine Learning", "Streamlit", "Gemini API"],
+    "liveUrl": "https://github.com/ObayM/Customer-Churn-Predictor",
+    "repoUrl": "https://github.com/ObayM/Customer-Churn-Predictor"
+  }
+
+]
